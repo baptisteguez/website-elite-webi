@@ -1,6 +1,6 @@
 # Money Trees — Landing page « soirée en live »
 
-Contexte et **direction artistique (DA)** du site. Ce fichier sert de référence à Claude Code pour continuer les intégrations. Le rendu de référence est dans **`money-trees.html`** (page autonome, HTML/CSS/JS vanilla, sans build).
+Contexte et **direction artistique (DA)** du site. Ce fichier sert de référence à Claude Code pour continuer les intégrations. Le rendu de référence est dans **`index.html`** (page autonome, HTML/CSS/JS vanilla, sans build).
 
 ---
 
@@ -76,7 +76,7 @@ Couleurs locales (pas dans `:root`) :
 
 ---
 
-## 4. Structure des sections (dans `money-trees.html`)
+## 4. Structure des sections (dans `index.html`)
 
 1. **Header** — `.announce` (bannière verte, **défile** avec la page) + `.nav` (logo + CTA, **sticky** `position:sticky;top:0`). ⚠️ Ne pas remettre la bannière en sticky.
 2. **Hero** `.hero` (sombre) — H1 stylé, lede, 3 `.checks-row`, `.cta-btn` avec date. Fit viewport via `min-height:calc(100svh - var(--head))`.
@@ -111,7 +111,7 @@ Le dossier contient déjà des images à intégrer lors des prochaines itératio
 
 ## 8. Règles de travail pour les prochaines modifs
 
-- Toujours modifier `money-trees.html` en place (fichier unique, pas de nouveaux fichiers CSS/JS séparés sauf demande explicite).
+- Toujours modifier `index.html` en place (fichier unique, pas de nouveaux fichiers CSS/JS séparés sauf demande explicite).
 - Respecter les tokens `:root` existants plutôt que d'introduire de nouvelles couleurs en dur.
 - Garder l'alternance sombre/clair des sections telle quelle sauf demande contraire.
 - Ne pas casser le fit viewport du hero (`--head`, `clamp(...vh...)`) en modifiant le texte du H1/lede.
