@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Money Trees · Mentions légales, confidentialité &amp; CGV</title>
+<meta name="description" content="Mentions légales, politique de confidentialité et conditions générales de vente de Money Trees.">
+<link rel="icon" href="Copie%20de%20Logo%20Money%20Trees%20(2).png">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-dark:#06160F; --ink-l:#F3FBF6; --muted-l:#9DB8AC;
+    --green:#2FE07E; --lime:#A8F06A; --teal:#23DCC2;
+    --cta-1:#38E884; --cta-2:#12A85C;
+    --bg-light:#F6FCF8; --ink:#10201A; --muted:#566B60; --line:#E2F0E7;
+    --mint:#E7F7EE; --green-dk:#12934F;
+    --display:"Clash Display",ui-sans-serif,system-ui,sans-serif;
+    --body:"Satoshi",ui-sans-serif,system-ui,sans-serif;
+    --maxw:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--body);background:var(--bg-light);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--green);color:#04120B}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.1;letter-spacing:-.015em}
+  .grad{background:linear-gradient(100deg,var(--lime),var(--green) 46%,var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+  /* nav */
+  .nav{position:sticky;top:0;z-index:20;background:rgba(6,22,15,.9);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:600;font-size:19px;color:#fff}
+  .brand .logo{width:38px;height:38px;flex:none;display:grid;place-items:center}
+  .brand .logo img{width:100%;height:100%;object-fit:contain}
+  .back-link{font-size:14px;font-weight:600;color:var(--muted-l);display:inline-flex;align-items:center;gap:7px;transition:color .16s}
+  .back-link:hover{color:#fff}
+  .back-link svg{width:16px;height:16px}
+
+  /* header */
+  .legal-hero{position:relative;overflow:hidden;isolation:isolate;background:var(--bg-dark);color:var(--ink-l);padding:clamp(56px,8vw,88px) 0 clamp(48px,7vw,72px);text-align:center}
+  .legal-hero-bg{position:absolute;inset:0;z-index:-1;background:
+    radial-gradient(60% 55% at 50% -10%, rgba(47,224,126,.38), transparent 60%),
+    linear-gradient(180deg,#06160F,#0a2117 60%,#05130C)}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);font-size:13px;font-weight:600;color:#d7efe1;margin-bottom:18px}
+  .legal-hero h1{font-size:clamp(28px,4.6vw,44px);color:#fff;max-width:20ch;margin:0 auto 14px}
+  .updated{font-size:14px;color:var(--muted-l);margin-bottom:28px}
+  .toc{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+  .toc a{font-size:13.5px;font-weight:600;color:#d3ece0;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);padding:9px 16px;border-radius:999px;transition:border-color .16s,color .16s}
+  .toc a:hover{border-color:var(--green);color:#fff}
+
+  /* content */
+  .legal-content{padding:clamp(48px,7vw,80px) 0 clamp(64px,8vw,96px)}
+  .narrow{max-width:800px}
+  .callout{background:var(--mint);border-left:3px solid var(--green);border-radius:12px;padding:18px 22px;font-size:14.5px;color:#274b39;line-height:1.65;margin-bottom:12px}
+  .callout strong{color:var(--ink)}
+
+  article{padding-top:56px}
+  article:first-of-type{padding-top:40px}
+  .sec-num{display:inline-block;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;color:var(--green-dk);background:var(--mint);border:1px solid var(--line);padding:5px 11px;border-radius:999px;margin-bottom:14px}
+  article h2{font-size:clamp(24px,3.2vw,32px);color:var(--ink);scroll-margin-top:88px;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+  article h3{font-size:18px;color:var(--ink);margin:30px 0 10px;scroll-margin-top:88px}
+  article p{color:var(--muted);font-size:15.5px;margin-bottom:14px}
+  article p strong,article li strong{color:var(--ink);font-weight:600}
+  article ul,article ol{color:var(--muted);font-size:15.5px;margin:0 0 14px 22px}
+  article li{margin-bottom:6px}
+  article a{color:var(--green-dk);font-weight:600;border-bottom:1px solid var(--line)}
+  article a:hover{border-color:var(--green-dk)}
+  article blockquote{background:var(--mint);border-left:3px solid var(--green);border-radius:10px;padding:14px 18px;font-size:14.5px;color:#274b39;margin:14px 0}
+
+  .table-wrap{overflow-x:auto;margin:16px 0 20px;border:1px solid var(--line);border-radius:14px}
+  table{width:100%;border-collapse:collapse;font-size:14px;min-width:520px}
+  th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line)}
+  th{background:var(--mint);color:var(--green-dk);font-weight:700;font-size:12.5px;letter-spacing:.03em;text-transform:uppercase}
+  tr:last-child td{border-bottom:0}
+  td{color:var(--muted)}
+
+  .doc-footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);font-style:italic}
+
+  /* footer */
+  footer{background:linear-gradient(180deg,#081b11,#04120B);color:#8ea79a;padding:52px 0 40px;font-size:14px;text-align:center}
+  .foot-brand{display:inline-flex;align-items:center;gap:11px;font-family:var(--display);font-weight:600;font-size:19px;color:#fff;margin-bottom:20px}
+  .foot-brand .logo{width:42px;height:42px;flex:none;display:grid;place-items:center}
+  .foot-brand .logo img{width:100%;height:100%;object-fit:contain}
+  .foot-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.08)}
+  .foot-links a{color:#c7ded1;font-weight:600}
+  .foot-links a:hover{color:#fff}
+  .copyright{margin-top:16px;font-size:12px;color:#8ea79a}
+
+  @media (max-width:560px){.toc{gap:8px}.toc a{font-size:12.5px;padding:8px 13px}}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="wrap nav-inner">
+    <a href="/" class="brand" aria-label="Money Trees">
+      <span class="logo"><img src="Copie%20de%20Logo%20Money%20Trees%20(2).png" alt="" aria-hidden="true"></span>
+      Money&nbsp;Trees
+    </a>
+    <a href="/" class="back-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>Retour au site</a>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<section class="legal-hero">
+  <div class="legal-hero-bg"></div>
+  <div class="wrap">
+    <span class="eyebrow">Documents légaux</span>
+    <h1>Mentions légales, confidentialité <span class="grad">&amp; CGV</span></h1>
+    <p class="updated">Dernière mise à jour : 31 août 2026</p>
+    <div class="toc">
+      <a href="#mentions-legales">Mentions légales</a>
+      <a href="#confidentialite">Politique de confidentialité</a>
+      <a href="#cgv">Conditions générales de vente</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENU ===== -->
+<section class="legal-content">
+  <div class="wrap narrow">
+
+    <div class="callout"><strong>Avertissement.</strong> Ces documents constituent un modèle rédactionnel professionnel et non un conseil juridique. Scale of Trees Limited Company étant immatriculée aux États-Unis tout en s'adressant à une clientèle francophone et européenne, il est recommandé de les faire relire par un avocat compétent en droit américain et en droit français / de l'Union européenne (RGPD inclus) avant publication.</div>
+
+    <!-- ===== 1. MENTIONS LÉGALES ===== -->
+    <article id="mentions-legales">
+      <span class="sec-num">01</span>
+      <h2>Mentions légales</h2>
+
+      <h3>Éditeur du site</h3>
+      <p>Le site <strong>www.moneytrees.fr</strong> (ci-après le « Site ») est édité par :</p>
+      <p><strong>SCALE OF TREES LIMITED COMPANY</strong> (ci-après « Money Trees »)<br>
+      Forme juridique : Limited Liability Company (société de droit de l'État de New York, États-Unis)<br>
+      Siège social : 447 Broadway, 2nd FL #856, New York, NY 10013, États-Unis<br>
+      Numéro d'immatriculation (EIN) : 30-1426789<br>
+      Adresse e-mail : <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a></p>
+
+      <h3>Hébergeur</h3>
+      <p>Le Site est hébergé par :</p>
+      <p><strong>OVH SAS</strong><br>
+      2 rue Kellermann, 59100 Roubaix, France<br>
+      Site : <a href="https://www.ovhcloud.com" target="_blank" rel="noopener">www.ovhcloud.com</a></p>
+
+      <h3>Propriété intellectuelle</h3>
+      <p>L'ensemble des éléments composant le Site (textes, images, graphismes, logo, marques, vidéos, sons, méthodologies, structures et codes) est la propriété exclusive de Money Trees ou de ses partenaires, et est protégé par les lois relatives à la propriété intellectuelle.</p>
+      <p>Toute reproduction, représentation, modification, publication, adaptation ou exploitation, totale ou partielle, de ces éléments, par quelque procédé que ce soit et sur quelque support que ce soit, est interdite sans l'autorisation écrite préalable de Money Trees. Toute exploitation non autorisée est susceptible de constituer une contrefaçon engageant la responsabilité de son auteur.</p>
+
+      <h3>Responsabilité</h3>
+      <p>Money Trees s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur le Site, sans toutefois garantir qu'elles soient exemptes d'erreurs ou d'omissions. Les informations sont fournies à titre indicatif et sont susceptibles d'évoluer.</p>
+      <p>Money Trees ne saurait être tenue responsable des dommages directs ou indirects résultant de l'accès ou de l'utilisation du Site, y compris l'inaccessibilité, les pertes de données ou la présence de virus. Le Site peut contenir des liens vers des sites tiers dont Money Trees ne maîtrise pas le contenu et ne saurait être tenue responsable.</p>
+      <p>Les résultats et témoignages éventuellement présentés sont propres à des personnes spécifiques et ne constituent en aucun cas une garantie de résultats similaires. Tout résultat dépend du travail et de l'implication de chaque participant.</p>
+
+      <h3>Droit applicable</h3>
+      <p>Les présentes mentions légales sont régies par le droit applicable au siège de l'éditeur, sous réserve des dispositions impératives protectrices applicables au consommateur en vertu du droit de sa résidence habituelle. Pour toute question : <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a>.</p>
+    </article>
+
+    <!-- ===== 2. POLITIQUE DE CONFIDENTIALITÉ ===== -->
+    <article id="confidentialite">
+      <span class="sec-num">02</span>
+      <h2>Politique de confidentialité</h2>
+
+      <p>La présente Politique de confidentialité décrit la manière dont Money Trees recueille, utilise, partage et protège vos informations personnelles lorsque vous consultez le site www.moneytrees.fr, vous inscrivez à un événement (webinaire, conférence en ligne), ou effectuez un achat.</p>
+      <p>Money Trees agit en qualité de <strong>responsable du traitement</strong> au sens du Règlement (UE) 2016/679 (« RGPD »).</p>
+
+      <h3>2.1. Informations que nous recueillons</h3>
+      <p><strong>Informations sur l'appareil (collecte automatique).</strong> Lorsque vous consultez le Site, nous recueillons automatiquement des informations relatives à votre appareil : type et version de navigateur, système d'exploitation, adresse IP, fuseau horaire, pages consultées, sites ou termes de recherche vous ayant orienté vers le Site, et données d'interaction. Ces informations sont collectées au moyen de cookies, fichiers journaux, pixels et balises (voir la section « Cookies »).</p>
+      <p><strong>Informations que vous nous transmettez.</strong> Lorsque vous vous inscrivez à un événement, créez un compte, remplissez un formulaire ou effectuez un achat, nous recueillons les données que vous fournissez : nom, prénom, adresse e-mail, numéro de téléphone, et, le cas échéant, adresse de facturation et informations de paiement.</p>
+      <blockquote>Les informations de paiement (numéro de carte, etc.) sont traitées directement par notre prestataire de paiement sécurisé (Stripe) et ne sont pas conservées par Money Trees.</blockquote>
+      <p>L'ensemble de ces données est désigné « Informations personnelles ».</p>
+
+      <h3>2.2. Finalités et bases légales</h3>
+      <p>Nous traitons vos Informations personnelles pour les finalités suivantes :</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Finalité</th><th>Base légale (RGPD)</th></tr></thead>
+          <tbody>
+            <tr><td>Gérer votre inscription et votre participation aux événements</td><td>Exécution d'un contrat / mesures précontractuelles</td></tr>
+            <tr><td>Traiter et suivre vos commandes, émettre les factures</td><td>Exécution d'un contrat</td></tr>
+            <tr><td>Vous envoyer des communications marketing et rappels</td><td>Consentement / intérêt légitime</td></tr>
+            <tr><td>Prévenir la fraude et sécuriser le Site</td><td>Intérêt légitime</td></tr>
+            <tr><td>Améliorer et analyser le Site (mesure d'audience)</td><td>Consentement (cookies) / intérêt légitime</td></tr>
+            <tr><td>Respecter nos obligations légales et comptables</td><td>Obligation légale</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Vous pouvez retirer votre consentement à tout moment (notamment pour le marketing) sans que cela n'affecte la licéité des traitements antérieurs.</p>
+
+      <h3>2.3. Partage de vos informations</h3>
+      <p>Nous partageons vos Informations personnelles uniquement avec des sous-traitants strictement nécessaires à notre activité, tenus à des obligations de confidentialité et de sécurité :</p>
+      <ul>
+        <li><strong>Systeme.io</strong> — hébergement des tunnels de vente, gestion des inscriptions, de l'espace membre et de l'emailing.</li>
+        <li><strong>Stripe</strong> — traitement sécurisé des paiements.</li>
+        <li><strong>Netlify</strong> — hébergement et diffusion de certaines pages du Site.</li>
+        <li><strong>OVH</strong> — hébergement du site www.moneytrees.fr.</li>
+      </ul>
+      <p>Le cas échéant, nous utilisons également des outils de mesure d'audience et de publicité (Google, Meta), dans les conditions décrites aux sections « Cookies » et « Publicité ciblée ».</p>
+      <p>Nous pouvons également divulguer vos informations pour respecter une obligation légale, une décision de justice, ou pour protéger nos droits.</p>
+
+      <h3>2.4. Transferts hors Union européenne</h3>
+      <p>Money Trees étant établie aux États-Unis et recourant à des prestataires susceptibles d'être situés hors de l'Espace économique européen, vos données peuvent faire l'objet de transferts internationaux. Ces transferts sont encadrés par des garanties appropriées (clauses contractuelles types de la Commission européenne, ou mécanismes équivalents). Vous pouvez nous contacter pour en obtenir copie.</p>
+
+      <h3>2.5. Durée de conservation</h3>
+      <p>Nous conservons vos Informations personnelles aussi longtemps que nécessaire aux finalités décrites : pendant la durée de la relation commerciale, puis en archivage pour la durée requise par les obligations légales et comptables. Les données de prospection sont conservées jusqu'à 3 ans à compter du dernier contact, puis supprimées ou anonymisées. Les pièces comptables sont conservées pendant la durée légale applicable.</p>
+
+      <h3>2.6. Marketing par e-mail</h3>
+      <p>Avec votre consentement, ou dans le cadre de la relation commerciale existante, nous pouvons vous adresser des communications par e-mail (informations sur les événements, rappels, offres) via notre prestataire Systeme.io. Vous pouvez vous désabonner à tout moment via le lien de désinscription présent dans chaque e-mail.</p>
+
+      <h3>2.7. Cookies</h3>
+      <p>Le Site utilise des cookies et technologies similaires pour assurer son fonctionnement, mémoriser vos préférences, mesurer l'audience et, le cas échéant, personnaliser la publicité. Les cookies non essentiels ne sont déposés qu'avec votre consentement, que vous pouvez retirer à tout moment via le bandeau de consentement ou les paramètres de votre navigateur. Les cookies strictement nécessaires au fonctionnement du Site ne requièrent pas de consentement.</p>
+
+      <h3>2.8. Publicité ciblée</h3>
+      <p>Vous pouvez vous opposer à la publicité comportementale via :</p>
+      <ul>
+        <li>Meta (Facebook / Instagram) : <a href="https://www.facebook.com/settings/?tab=ads" target="_blank" rel="noopener">facebook.com/settings/?tab=ads</a></li>
+        <li>Google : <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a></li>
+        <li>Microsoft / Bing : <a href="https://about.ads.microsoft.com/fr-fr/ressources/politiques/annonces-personnalisees" target="_blank" rel="noopener">about.ads.microsoft.com</a></li>
+      </ul>
+
+      <h3>2.9. Sécurité</h3>
+      <p>Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger vos Informations personnelles contre la perte, l'accès non autorisé, la divulgation ou l'altération. Aucun système n'étant infaillible, nous ne pouvons garantir une sécurité absolue.</p>
+
+      <h3>2.10. Vos droits</h3>
+      <p>Conformément au RGPD, vous disposez des droits suivants : accès, rectification, effacement, limitation, opposition, portabilité, et retrait du consentement. Vous pouvez également définir des directives relatives au sort de vos données après votre décès.</p>
+      <p>Pour exercer ces droits, contactez-nous à <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a>. Nous répondons dans un délai d'un mois. Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'autorité de contrôle compétente (en France, la CNIL — <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>).</p>
+
+      <h3>2.11. Mineurs</h3>
+      <p>Le Site et les services ne s'adressent pas aux personnes mineures. Nous ne collectons pas sciemment de données concernant des mineurs.</p>
+
+      <h3>2.12. Contact</h3>
+      <p>Responsable du traitement : <strong>Scale of Trees Limited Company (« Money Trees »)</strong><br>
+      E-mail : <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a><br>
+      Adresse : 447 Broadway, 2nd FL #856, New York, NY 10013, États-Unis</p>
+    </article>
+
+    <!-- ===== 3. CGV ===== -->
+    <article id="cgv">
+      <span class="sec-num">03</span>
+      <h2>Conditions Générales de Vente (CGV)</h2>
+
+      <h3>Article 1 — Objet et champ d'application</h3>
+      <p>Les présentes Conditions Générales de Vente (« CGV ») régissent sans restriction ni réserve toute commande de services proposés par <strong>SCALE OF TREES LIMITED COMPANY</strong> (« Money Trees »), 447 Broadway, 2nd FL #856, New York, NY 10013, États-Unis, sur le site www.moneytrees.fr, à toute personne physique majeure ou personne morale (le « Client »).</p>
+      <p>Le Client déclare avoir pris connaissance des présentes CGV avant la passation de toute commande et les accepter sans exception ni réserve. Money Trees se réserve le droit de modifier les CGV à tout moment ; les CGV applicables sont celles en vigueur à la date de la commande, consultables sur www.moneytrees.fr.</p>
+
+      <h3>Article 2 — Services proposés</h3>
+      <p>Money Trees propose des services de formation, d'accompagnement et de conseil relatifs au développement d'activités en ligne, aux stratégies commerciales et marketing, à la structuration d'équipes commerciales et à l'optimisation des ventes.</p>
+      <p>Ces services comprennent notamment :</p>
+      <ul>
+        <li>des <strong>formations en ligne</strong> composées de vidéos préenregistrées, accessibles depuis un espace membre ;</li>
+        <li>un <strong>accompagnement / coaching</strong>, incluant l'accès à des coachs, à des sessions et à des lives privés réservés aux élèves ;</li>
+        <li>l'accès à une <strong>communauté privée</strong> de participants.</li>
+      </ul>
+      <p>Certains événements, tels que les conférences et webinaires en direct, peuvent être proposés <strong>gratuitement</strong> ; les présentes CGV s'appliquent alors à leurs stipulations pertinentes (notamment propriété intellectuelle, responsabilité, données personnelles).</p>
+
+      <h3>Article 3 — Nature et durée des accès</h3>
+      <p>Sauf indication contraire au moment de la vente, les accès sont accordés selon les modalités suivantes :</p>
+      <ul>
+        <li><strong>Vidéos de formation préenregistrées</strong> : accès à vie, dans la limite de la durée d'exploitation du service par Money Trees.</li>
+        <li><strong>Accompagnement / coaching</strong> (coachs, sessions et lives privés) : accès pour une durée de six (6) mois à compter de l'ouverture de l'accès.</li>
+        <li><strong>Communauté privée</strong> : incluse pendant la durée de l'accompagnement.</li>
+      </ul>
+      <p>L'accès aux contenus est <strong>strictement personnel</strong>. Le partage, la revente, la diffusion ou la reproduction des identifiants et des contenus sont interdits.</p>
+
+      <h3>Article 4 — Commande</h3>
+      <p>La commande est ferme après validation par le Client sur le Site et encaissement du paiement (total ou de la première échéance en cas de paiement échelonné). Le Client reçoit un e-mail de confirmation récapitulant sa commande. Toute demande de modification doit être adressée avant réception de cette confirmation.</p>
+
+      <h3>Article 5 — Compte client et accès aux contenus</h3>
+      <p>L'accès aux services nécessite la création d'un compte personnel. Le Client est responsable de la confidentialité de ses identifiants et de toute activité réalisée depuis son compte, et s'engage à fournir des informations exactes et à jour.</p>
+      <p>Après validation du paiement, l'accès est fourni de manière <strong>immédiate</strong> : le Client reçoit ses <strong>identifiants et un e-mail d'accès</strong> à l'espace membre et à la plateforme privée (hébergée notamment via Systeme.io), lui donnant accès aux formations, au coaching et à la communauté selon l'offre souscrite.</p>
+
+      <h3>Article 6 — Prix et paiement</h3>
+      <p>Les prix des services payants sont indiqués sur le Site au moment de la commande, en euros (€). Le paiement s'effectue par les moyens proposés sur le Site, notamment par carte bancaire via notre prestataire de paiement sécurisé <strong>Stripe</strong>.</p>
+      <p>Money Trees propose, selon les offres, un <strong>paiement en une fois ou un paiement échelonné en deux (2), trois (3), quatre (4) ou cinq (5) mensualités</strong>. En cas de paiement échelonné, le Client s'engage à régler l'intégralité des échéances convenues ; l'ensemble des mensualités reste dû, y compris en cas d'interruption de l'utilisation du service. En cas d'incident ou de refus de paiement d'une échéance, Money Trees se réserve le droit de suspendre l'accès aux services jusqu'à régularisation.</p>
+      <p>La commande n'est validée qu'après confirmation du paiement de la première échéance. Money Trees se réserve le droit de modifier ses prix à tout moment, les services étant facturés sur la base des tarifs en vigueur au moment de la commande.</p>
+
+      <h3>Article 7 — Droit de rétractation</h3>
+      <p>Conformément aux dispositions applicables (notamment les articles L.221-18 et suivants du Code de la consommation français pour les Clients concernés), le Client consommateur dispose d'un délai de <strong>quatorze (14) jours</strong> à compter de la conclusion du contrat pour exercer son droit de rétractation, sans avoir à motiver sa décision.</p>
+      <p>Pour l'exercer, le Client adresse une demande claire et non ambiguë à <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a> avant l'expiration du délai. Le remboursement, lorsqu'il est dû, intervient dans les quatorze (14) jours suivant la réception de la demande, par le même moyen de paiement.</p>
+      <p>Le Client est informé que, s'il demande expressément l'accès immédiat aux contenus numériques et à l'accompagnement avant la fin du délai de rétractation, et qu'il reconnaît que l'exécution ainsi commencée entraîne, dans les conditions prévues par la loi, la perte de son droit de rétractation, ce dernier ne pourra plus être exercé une fois l'exécution pleinement effectuée.</p>
+
+      <h3>Article 8 — Support</h3>
+      <p>Un support est mis à la disposition du Client par <strong>e-mail, à l'adresse contact@moneytrees.fr</strong>. Le Client bénéficie en outre, dans le cadre de son accompagnement, de l'accès aux coachs, à la communauté et aux lives privés réunissant les élèves. Aucun délai de réponse contractuel n'est garanti ; Money Trees s'efforce toutefois de répondre dans un délai raisonnable.</p>
+
+      <h3>Article 9 — Obligations du Client</h3>
+      <p>Le Client s'engage à utiliser les services conformément à leur destination et à la loi. Il reconnaît que les services relèvent d'une obligation de moyens et que les résultats dépendent de son implication et de son travail. Il s'interdit tout comportement portant atteinte aux droits de Money Trees, des intervenants ou des autres participants (enregistrement non autorisé, diffusion, propos illicites au sein de la communauté, etc.).</p>
+
+      <h3>Article 10 — Obligations et responsabilité de Money Trees</h3>
+      <p>Money Trees s'engage à mettre en œuvre tous les moyens nécessaires pour fournir des services de qualité. Elle est tenue à une <strong>obligation de moyens</strong> et non de résultat : aucun résultat commercial, financier ou de revenu n'est garanti. La responsabilité de Money Trees ne saurait être engagée pour les décisions prises par le Client sur la base des contenus fournis, ni pour les dommages indirects. En tout état de cause, la responsabilité de Money Trees est limitée au montant effectivement payé par le Client pour le service concerné.</p>
+
+      <h3>Article 11 — Absence de garantie de résultats</h3>
+      <p>Les services de Money Trees ont une vocation informative et pédagogique. Les témoignages et exemples de résultats présentés sont propres à des personnes spécifiques et ne constituent pas une promesse ni une garantie de résultats similaires. Tout résultat dépend de nombreux facteurs propres au Client.</p>
+
+      <h3>Article 12 — Propriété intellectuelle</h3>
+      <p>L'ensemble des contenus fournis (supports, vidéos, textes, méthodes, logos, marques) est protégé par le droit d'auteur et demeure la propriété exclusive de Money Trees. Le Client bénéficie d'un droit d'accès personnel et non exclusif, à des fins strictement privées. Toute reproduction, diffusion, revente ou exploitation non autorisée est interdite et engage la responsabilité du Client.</p>
+
+      <h3>Article 13 — Données personnelles</h3>
+      <p>Le traitement des données personnelles du Client est décrit dans la Politique de confidentialité accessible sur le Site. Le Client dispose des droits d'accès, de rectification, d'effacement et d'opposition, exerçables à <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a>.</p>
+
+      <h3>Article 14 — Force majeure</h3>
+      <p>Money Trees ne pourra être tenue responsable de l'inexécution de ses obligations en cas de force majeure (notamment catastrophe naturelle, pandémie, grève, défaillance des réseaux ou des prestataires techniques), pour toute la durée de l'événement.</p>
+
+      <h3>Article 15 — Réclamations, médiation et litiges</h3>
+      <p>Toute réclamation peut être adressée à <a href="mailto:contact@moneytrees.fr">contact@moneytrees.fr</a>. Les parties s'efforceront de résoudre amiablement tout différend. Le Client consommateur résidant dans l'Union européenne peut recourir gratuitement à un médiateur de la consommation et à la plateforme européenne de règlement en ligne des litiges (<a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>). À défaut de résolution amiable, le litige sera soumis aux juridictions compétentes conformément au droit applicable, sous réserve des règles impératives protectrices du consommateur.</p>
+
+      <h3>Article 16 — Droit applicable</h3>
+      <p>Les présentes CGV sont soumises au droit applicable au siège de Money Trees, sous réserve des dispositions impératives protectrices dont bénéficie le Client consommateur en vertu du droit de sa résidence habituelle.</p>
+    </article>
+
+    <p class="doc-footer">Money Trees — Scale of Trees Limited Company — EIN 30-1426789 — 447 Broadway, 2nd FL #856, New York, NY 10013, États-Unis — contact@moneytrees.fr. Document mis à jour le 31 août 2026.</p>
+
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">
+      <span class="logo"><img src="Copie%20de%20Logo%20Money%20Trees%20(2).png" alt="" aria-hidden="true"></span>
+      Money Trees
+    </div>
+    <div class="foot-links">
+      <a href="/">Retour à l'accueil</a>
+      <a href="#mentions-legales">Mentions légales</a>
+      <a href="#confidentialite">Politique de confidentialité</a>
+      <a href="#cgv">CGV</a>
+    </div>
+    <div class="copyright">© 2026 Money Trees Agency · Tous droits réservés</div>
+  </div>
+</footer>
+
+</body>
+</html>

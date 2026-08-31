@@ -98,14 +98,9 @@
   .learn::before{content:"";position:absolute;top:0;left:0;right:0;height:180px;background:radial-gradient(60% 100% at 50% 0%,rgba(47,224,126,.12),transparent 70%);pointer-events:none}
   .learn-grid{display:grid;grid-template-columns:1fr 1.02fr;gap:64px;align-items:center;position:relative}
   .photo{position:relative;border-radius:26px;overflow:hidden;aspect-ratio:1/1;
-    background:radial-gradient(80% 70% at 50% 12%, rgba(47,224,126,.35), transparent 60%),linear-gradient(160deg,#0e3626,#06160F);
-    border:1px solid rgba(255,255,255,.08);box-shadow:0 40px 80px -40px rgba(16,80,50,.55);display:flex;align-items:flex-end;padding:24px}
-  .photo .photo-img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
-  .photo .ring{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(closest-side at 50% 42%, transparent 61%, rgba(47,224,126,.10) 62%, transparent 64%)}
-  .photo::after{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;background:linear-gradient(180deg,rgba(6,22,15,0) 52%,rgba(4,15,9,.8) 100%)}
-  .photo .ph-chip{position:relative;z-index:4;display:inline-flex;align-items:center;gap:11px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(10px);padding:11px 16px;border-radius:14px;color:#fff}
-  .photo .ph-chip .pc-n{font-family:var(--display);font-weight:600;font-size:19px}
-  .photo .ph-chip .pc-l{font-size:12px;color:#bfe0cf;line-height:1.25}
+    background:linear-gradient(160deg,#0e3626,#06160F);
+    border:1px solid rgba(255,255,255,.08);box-shadow:0 40px 80px -40px rgba(16,80,50,.55)}
+  .photo .photo-img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;object-position:50% 4%;transform:scale(1.22);transform-origin:50% 0%}
   .learn-copy .kick{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:13.5px;color:var(--green-dk);background:var(--mint);border:1px solid var(--line);padding:6px 14px;border-radius:999px;margin-bottom:20px}
   .learn-copy h2{font-size:clamp(30px,4.4vw,50px);color:var(--ink);letter-spacing:-.02em;margin-bottom:16px}
   .learn-copy .sub{color:var(--muted);font-size:18px;max-width:52ch;margin-bottom:30px}
@@ -346,21 +341,16 @@
     <div class="learn-grid">
       <div class="photo reveal">
         <img class="photo-img" src="Photo%20William%202.png" alt="William, fondateur de Money Trees" loading="lazy">
-        <div class="ring"></div>
-        <div class="ph-chip">
-          <span class="pc-n">+650</span>
-          <span class="pc-l">Français<br>accompagnés</span>
-        </div>
       </div>
       <div class="learn-copy reveal">
         <span class="kick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#12934F" stroke-width="2.4"><path d="M13 2L4.5 13.5H11l-1 8.5L19.5 10H13z"/></svg>Le contenu de la soirée</span>
         <h2>Ce que tu vas apprendre,<br><span class="grad">concrètement</span></h2>
-        <p class="sub">Une soirée en live pour découvrir l'activité qui permet de vivre à l'ère de l'IA — sans te filmer, sans coder, sans quitter ta sécurité du jour au lendemain.</p>
+        <p class="sub">Une soirée en live pour découvrir l'activité qui permet de tirer son épingle du jeu à l'ère de l'IA, sans te filmer, sans coder, sans quitter ta sécurité du jour au lendemain.</p>
         <div class="learn-list">
           <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p><b>La nouvelle activité</b> qui explose à l'ère de l'IA, et pourquoi elle est accessible sans diplôme ni expérience.</p></div>
           <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Comment générer des revenus <b>sans jamais te filmer</b> sur les réseaux, ni maîtriser la moindre compétence technique.</p></div>
           <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Le système <b>simple et duplicable</b> pour te lancer, même en partant de zéro et en gardant ta sécurité actuelle.</p></div>
-          <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Pourquoi c'est <b>le bon moment</b> pour prendre ta place — avant que tout le monde ne s'y mette.</p></div>
+          <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Pourquoi c'est <b>le bon moment</b> pour prendre ta place, avant que tout le monde ne s'y mette.</p></div>
         </div>
         <div class="learn-cta"><a href="#button-d7f9ad1f" class="btn">Je réserve ma place gratuitement <span class="arrow">→</span></a></div>
       </div>
@@ -380,7 +370,7 @@
         <div class="facts">
           <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>90 minutes</span>
           <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/></svg>100% en direct</span>
-          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>Replay 48h</span>
+          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>Un seul replay disponible</span>
           <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Gratuit</span>
         </div>
         <div class="night-cta">
@@ -432,7 +422,7 @@
           </div>
           <div class="fit-li reveal">
             <span class="seal good"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5 12 21.04l3.4 1.46 1.89-3.2 3.61-.82-.34-3.69L23 12z"/><path d="M9.6 12.4l1.9 1.9 3.9-4.2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            <p>Tu sais écouter, comprendre et conseiller — et tu veux transformer cette <b>qualité humaine</b> en une compétence qui rapporte.</p>
+            <p>Tu sais écouter, comprendre et conseiller, et tu veux transformer cette <b>qualité humaine</b> en une compétence qui rapporte.</p>
           </div>
           <div class="fit-li reveal">
             <span class="seal good"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5 12 21.04l3.4 1.46 1.89-3.2 3.61-.82-.34-3.69L23 12z"/><path d="M9.6 12.4l1.9 1.9 3.9-4.2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
@@ -474,55 +464,55 @@
 <section class="tmo">
   <div class="wrap">
     <div class="tmo-eyebrow reveal">Ils sont passés par là</div>
-    <div class="tcarousel reveal">
+    <div class="tcarousel">
       <div class="tviewport">
         <div class="ttrack" id="ttrack">
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%201%20.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%201%20.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%202.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%202.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%203.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%203.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%204.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%204.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="tesi%20elite%205.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="tesi%20elite%205.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%206.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%206.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%207.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%207.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%208.png" alt="Témoignage d'un élève Money Trees" loading="lazy">
+              <img class="tc-shot" src="testi%20elite%208.png" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
@@ -565,7 +555,7 @@
       Money Trees
     </div>
     <div class="foot-copy">
-      © 2026 Money Trees Agency<span class="foot-sep">·</span><a href="https://moneytrees.fr/mentions-legales">Mentions légales</a><span class="foot-sep">·</span><a href="https://moneytrees.fr/politique-de-confidentialite">Politique de confidentialité</a>
+      © 2026 Money Trees Agency<span class="foot-sep">·</span><a href="/mention-legale#mentions-legales">Mentions légales</a><span class="foot-sep">·</span><a href="/mention-legale#confidentialite">Politique de confidentialité</a>
     </div>
     <div class="foot-legal">
       <p>Ce site ne fait pas partie du site Facebook ni de Meta Platforms, Inc. Il n'est ni approuvé, ni administré, ni parrainé par Meta. FACEBOOK et INSTAGRAM sont des marques déposées de Meta Platforms, Inc.</p>
@@ -596,25 +586,6 @@
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  // count-up on the "+650" stat once it scrolls into view
-  const statEl = document.querySelector('.ph-chip .pc-n');
-  if(statEl && !reduceMotion){
-    const target = parseInt(statEl.textContent.replace(/\D/g,''),10) || 0;
-    const statIO = new IntersectionObserver((es)=>es.forEach(e=>{
-      if(!e.isIntersecting) return;
-      const dur = 1600; let start = null;
-      function step(ts){
-        if(!start) start = ts;
-        const p = Math.min((ts-start)/dur,1);
-        statEl.textContent = '+' + Math.floor(p*target);
-        if(p<1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-      statIO.unobserve(statEl);
-    }),{threshold:.4});
-    statIO.observe(statEl);
-  }
 
   // subtle parallax drift on the dark sections' background halos
   const parallaxEls = Array.from(document.querySelectorAll('.hero-bg, .night-bg, .final-bg'));
