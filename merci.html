@@ -162,7 +162,7 @@
 
     <div class="hero-cta reveal">
       <!-- ▶ Remplace le href par le lien réel de ton groupe/canal WhatsApp -->
-      <a class="btn wa lg" href="https://chat.whatsapp.com/REMPLACE_PAR_TON_LIEN" target="_blank" rel="noopener">
+      <a class="btn wa lg" href="https://chat.whatsapp.com/CqWRn5ZBdIvKllEUbGqMbB?s=cl&amp;p=i&amp;mlu=4" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.5.1.3.7 1.1 1.4 1.8.9.8 1.7 1 2 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.3-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.7-.1 1.2z"/></svg>
         Je rejoins le groupe WhatsApp <span class="sub">Accès immédiat · gratuit</span>
       </a>
@@ -186,7 +186,7 @@
         <span class="lbl">Étape 1</span>
         <h3>Rejoins le groupe WhatsApp</h3>
         <p>C'est là que tu recevras les infos importantes, les rappels avant la soirée et un maximum de valeur pour bien vivre le live.</p>
-        <a class="btn" href="https://chat.whatsapp.com/REMPLACE_PAR_TON_LIEN" target="_blank" rel="noopener">Je rejoins le groupe <span class="sub">Gratuit</span></a>
+        <a class="btn" href="https://chat.whatsapp.com/CqWRn5ZBdIvKllEUbGqMbB?s=cl&amp;p=i&amp;mlu=4" target="_blank" rel="noopener">Je rejoins le groupe <span class="sub">Gratuit</span></a>
       </div>
       <div class="step reveal">
         <span class="num">2</span>
@@ -227,19 +227,14 @@
 
   // Soirée : dimanche 6 septembre 2026, 20h00 heure française (CEST = UTC+2)
   const EVENT_START = '20260906T180000Z';
-  const EVENT_END   = '20260906T200000Z';
-  const EVENT_TITLE = "Money Trees · Soirée en live";
+  const EVENT_END   = '20260906T193000Z';
+  const EVENT_TITLE = "LIVE : La nouvelle activité qui a permis à +650 Français de sortir du métro-boulot-dodo";
   const EVENT_DESC  = "Ton accès à la soirée te sera envoyé sur WhatsApp avant le live.";
   const EVENT_LOC   = "En ligne (lien envoyé sur WhatsApp)";
 
   const gcal = document.getElementById('gcal-btn');
   if (gcal){
-    const p = new URLSearchParams({
-      action:'TEMPLATE', text:EVENT_TITLE,
-      dates:`${EVENT_START}/${EVENT_END}`,
-      details:EVENT_DESC, location:EVENT_LOC
-    });
-    gcal.href = `https://calendar.google.com/calendar/render?${p.toString()}`;
+    gcal.href = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=LIVE+%3A+La+nouvelle+activit%C3%A9+qui+a+permis+%C3%A0+%2B650+Fran%C3%A7ais+de+sortir+du+m%C3%A9tro-boulot-dodo&dates=20260906T180000Z%2F20260906T193000Z&details=Ton+acc%C3%A8s+%C3%A0+la+soir%C3%A9e+te+sera+envoy%C3%A9+sur+WhatsApp+avant+le+live.&location=En+ligne+%28lien+envoy%C3%A9+sur+WhatsApp%29';
   }
 
   const icsBtn = document.getElementById('ics-btn');
