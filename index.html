@@ -122,7 +122,8 @@
   .tmo{background:var(--bg-light);color:var(--ink);padding:clamp(56px,8vw,96px) 0 clamp(64px,9vw,104px);position:relative;overflow:hidden}
   .tmo-eyebrow{text-align:center;font-family:var(--body);font-weight:700;font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--green-dk);margin-bottom:34px}
   .tcarousel{position:relative}
-  .tviewport{overflow:hidden;padding:10px 0 26px}
+  .tviewport{overflow-x:auto;overflow-y:hidden;padding:10px 0 26px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .tviewport::-webkit-scrollbar{display:none}
   .ttrack{display:flex;align-items:center;gap:26px;transition:transform .55s cubic-bezier(.4,0,.2,1);will-change:transform}
   .tcard{flex:0 0 min(320px,72vw);background:#fff;border:1px solid var(--line);border-radius:22px;padding:10px;box-shadow:0 24px 50px -32px rgba(16,80,50,.4);opacity:.45;transform:scale(.9) rotate(-2.4deg);transition:opacity .5s,transform .5s,box-shadow .5s}
   .tcard:nth-child(even){transform:scale(.9) rotate(2.4deg)}
@@ -348,7 +349,7 @@
         <p class="sub">Une soirée en live pour découvrir l'activité qui permet de tirer son épingle du jeu à l'ère de l'IA, sans te filmer, sans coder, sans quitter ta sécurité du jour au lendemain.</p>
         <div class="learn-list">
           <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p><b>La nouvelle activité</b> qui explose à l'ère de l'IA, et pourquoi elle est accessible sans diplôme ni expérience.</p></div>
-          <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Comment générer des revenus <b>sans jamais te filmer</b> sur les réseaux, ni maîtriser la moindre compétence technique.</p></div>
+          <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Comment générer des revenus <b>sans jamais te filmer</b> sur les réseaux, ni être un crack en informatique.</p></div>
           <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Le système <b>simple et duplicable</b> pour te lancer, même en partant de zéro et en gardant ta sécurité actuelle.</p></div>
           <div class="li reveal"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><p>Pourquoi c'est <b>le bon moment</b> pour prendre ta place, avant que tout le monde ne s'y mette.</p></div>
         </div>
@@ -370,7 +371,7 @@
         <div class="facts">
           <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>90 minutes</span>
           <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/></svg>100% en direct</span>
-          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>Un seul replay disponible</span>
+          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>Pas de replay disponible</span>
           <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Gratuit</span>
         </div>
         <div class="night-cta">
@@ -470,49 +471,49 @@
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%201%20.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%201%20.png" width="800" height="728" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%202.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%202.png" width="788" height="652" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%203.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%203.png" width="774" height="548" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%204.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%204.png" width="778" height="776" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="tesi%20elite%205.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="tesi%20elite%205.png" width="752" height="762" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%206.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%206.png" width="1186" height="988" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%207.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%207.png" width="792" height="916" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
           <article class="tcard">
             <div class="tc-shot-wrap">
-              <img class="tc-shot" src="testi%20elite%208.png" alt="Témoignage d'un élève Money Trees">
+              <img class="tc-shot" src="testi%20elite%208.png" width="834" height="426" alt="Témoignage d'un élève Money Trees">
             </div>
           </article>
 
@@ -627,8 +628,9 @@
 
   function render(){
     const cw = cards[0].offsetWidth;
-    const gap = parseFloat(getComputedStyle(track).gap) || 26;
     const container = track.parentElement.offsetWidth;
+    if(!cw || !container){ requestAnimationFrame(render); return; } // layout not ready yet — retry instead of applying a broken transform
+    const gap = parseFloat(getComputedStyle(track).gap) || 26;
     const center = idx*(cw+gap) + cw/2;
     track.style.transform = `translateX(${container/2 - center}px)`;
     cards.forEach((el,i)=>el.classList.toggle('active',i===idx));
@@ -638,8 +640,10 @@
   function go(dir){ idx += dir; render(); }
 
   // when we land on a clone, snap invisibly back to the matching real card
+  // (target check matters: each .tcard has its own opacity/transform/box-shadow
+  // transitions, and their transitionend events bubble up to the track too)
   track.addEventListener('transitionend', (e)=>{
-    if(e.propertyName !== 'transform') return;
+    if(e.target !== track || e.propertyName !== 'transform') return;
     if(idx === cards.length-1){
       track.style.transition='none'; idx=1; render();
       requestAnimationFrame(()=>requestAnimationFrame(()=>{ track.style.transition=''; }));
