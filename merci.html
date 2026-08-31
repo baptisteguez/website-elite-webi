@@ -80,13 +80,6 @@
   .video-tag svg{width:15px;height:15px;color:var(--green)}
   .video-frame{position:relative;aspect-ratio:16/9;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.12);box-shadow:0 44px 100px -40px rgba(0,0,0,.75), 0 0 0 6px rgba(47,224,126,.07);background:linear-gradient(160deg,#0e3626,#06160F)}
   .video-frame iframe,.video-frame video{position:absolute;inset:0;width:100%;height:100%;border:0}
-  .video-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:#cfe9db}
-  .video-ph .glow{position:absolute;inset:0;background:radial-gradient(60% 60% at 50% 45%,rgba(47,224,126,.22),transparent 60%)}
-  .video-ph .play{position:relative;z-index:2;width:78px;height:78px;border-radius:50%;border:0;cursor:pointer;display:grid;place-items:center;color:#04140B;background:linear-gradient(158deg,var(--green),#0f8a4c);box-shadow:0 18px 40px -10px rgba(47,224,126,.7),inset 0 1px 0 rgba(255,255,255,.4);transition:transform .16s}
-  .video-ph .play:hover{transform:scale(1.06)}
-  .video-ph .play svg{width:30px;height:30px;margin-left:4px}
-  .video-ph .cap{position:relative;z-index:2;font-family:var(--display);font-weight:600;font-size:16px;color:#eafaf1}
-  .video-ph .hint{position:relative;z-index:2;font-size:12.5px;color:#8fb6a2}
 
   /* whatsapp cta */
   .hero-cta{margin:32px 0 0;display:flex;flex-direction:column;align-items:center;gap:8px}
@@ -159,19 +152,11 @@
       <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Aucune compétence technique</span>
     </div>
 
-    <!-- ===== EMPLACEMENT VIDÉO ===== -->
-    <!-- ▶ POUR INSÉRER TA VIDÉO : remplace tout le <div class="video-ph">…</div> ci-dessous par ton embed, par exemple :
-         <iframe src="https://www.youtube.com/embed/TON_ID" title="Vidéo de bienvenue" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-         (le cadre 16:9 et les coins arrondis sont déjà gérés par .video-frame) -->
+    <!-- ===== VIDÉO (Loom) ===== -->
     <div class="video-wrap reveal">
       <span class="video-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 10l5-3v10l-5-3"/><rect x="2" y="6" width="13" height="12" rx="2.5"/></svg>À regarder avant le live · 2 min</span>
       <div class="video-frame">
-        <div class="video-ph">
-          <div class="glow"></div>
-          <button class="play" aria-label="Lire la vidéo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
-          <span class="cap">Ta vidéo de bienvenue</span>
-          <span class="hint">Emplacement vidéo — insère ton embed ici</span>
-        </div>
+        <iframe src="https://www.loom.com/embed/e588948796d84101871b470f24e3bde9" title="Vidéo de bienvenue Money Trees" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
